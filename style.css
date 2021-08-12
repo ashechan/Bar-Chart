@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #70a9ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+svg {
+  background-color: #e7f0ff;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.bar {
+  background-color: #7e7f9a;
+  border-color: #7e7f9a;
+  fill: #7e7f9a;
+}
+
+.bar:hover {
+  fill: #eca400;
+}
+
+g {
+  color: #17252a;
+}
+
+#tooltip {
+  margin-top: 10px;
+  color: whitesmoke;
+  font-size: 30px;
+}
+
+#title {
+  font-size: 32px;
+  fill: #17252a;
+}
